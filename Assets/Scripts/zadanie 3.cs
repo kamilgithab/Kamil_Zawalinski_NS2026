@@ -15,5 +15,6 @@ public class zadanie3 : MonoBehaviour
     void Update()
     {
         sprite.color = gradient.Evaluate(sprite.transform.position.y);
+        sprite.color = gradient.Evaluate(sprite.transform.rotation.x);
     }
 }
